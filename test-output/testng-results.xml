@@ -1,20 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-01-30T20:01:56 EET" name="Default suite" finished-at="2024-01-30T20:02:14 EET" duration-ms="17515">
+  <suite started-at="2024-02-01T10:34:56 EET" name="Default suite" finished-at="2024-02-01T10:35:40 EET" duration-ms="43964">
     <groups>
     </groups>
-    <test started-at="2024-01-30T20:01:56 EET" name="Default test" finished-at="2024-01-30T20:02:14 EET" duration-ms="17515">
+    <test started-at="2024-02-01T10:34:56 EET" name="Default test" finished-at="2024-02-01T10:35:40 EET" duration-ms="43964">
       <class name="MyTestcases.MagentoTestCases">
-        <test-method is-config="true" signature="MySetUp()[pri:0, instance:MyTestcases.MagentoTestCases@1e1d3956]" started-at="2024-01-30T20:01:56 EET" name="MySetUp" finished-at="2024-01-30T20:01:57 EET" duration-ms="231" status="PASS">
+        <test-method is-config="true" signature="MySetUp()[pri:0, instance:MyTestcases.MagentoTestCases@f0e995e]" started-at="2024-02-01T10:34:56 EET" name="MySetUp" finished-at="2024-02-01T10:34:56 EET" duration-ms="208" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- MySetUp -->
-        <test-method signature="SignUp()[pri:0, instance:MyTestcases.MagentoTestCases@1e1d3956]" started-at="2024-01-30T20:01:57 EET" name="SignUp" finished-at="2024-01-30T20:02:14 EET" duration-ms="17202" status="PASS">
+        <test-method signature="SignUp()[pri:1, instance:MyTestcases.MagentoTestCases@f0e995e]" started-at="2024-02-01T10:34:56 EET" name="SignUp" finished-at="2024-02-01T10:35:14 EET" duration-ms="18221" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SignUp -->
+        <test-method signature="LogOut()[pri:2, instance:MyTestcases.MagentoTestCases@f0e995e]" started-at="2024-02-01T10:35:14 EET" name="LogOut" finished-at="2024-02-01T10:35:17 EET" duration-ms="2326" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogOut -->
+        <test-method signature="Login()[pri:3, instance:MyTestcases.MagentoTestCases@f0e995e]" started-at="2024-02-01T10:35:17 EET" name="Login" finished-at="2024-02-01T10:35:25 EET" duration-ms="8213" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method signature="NumOfSomeTags()[pri:4, instance:MyTestcases.MagentoTestCases@f0e995e]" started-at="2024-02-01T10:35:25 EET" name="NumOfSomeTags" finished-at="2024-02-01T10:35:27 EET" duration-ms="1950" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NumOfSomeTags -->
+        <test-method signature="addOneRandomItem()[pri:5, instance:MyTestcases.MagentoTestCases@f0e995e]" started-at="2024-02-01T10:35:27 EET" name="addOneRandomItem" finished-at="2024-02-01T10:35:40 EET" duration-ms="12946" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addOneRandomItem -->
       </class> <!-- MyTestcases.MagentoTestCases -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

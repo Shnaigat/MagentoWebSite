@@ -5,7 +5,7 @@
     <classes>
       <class name="MyTestcases.MagentoTestCases">
         <methods>
-          <include name="SignUp"/>
+          <include name="addOneRandomItem"/>
           <include name="MySetUp"/>
         </methods>
       </class> <!-- MyTestcases.MagentoTestCases -->
